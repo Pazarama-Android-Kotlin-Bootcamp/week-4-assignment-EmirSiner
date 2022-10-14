@@ -1,4 +1,4 @@
-package com.example.patikaweek4.ui.activity
+package com.example.patikaweek4.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
