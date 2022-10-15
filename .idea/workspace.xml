@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="811bbe43-df0a-4a20-8ec5-e2f893bda900" name="Changes" comment="" />
+    <list default="true" id="811bbe43-df0a-4a20-8ec5-e2f893bda900" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/ui/weather/fragment/EntryFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/res/layout/fragment_entry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/data/ApiClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/data/api/ApiClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/data/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/data/api/ApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/data/api/interceptor/AuthInterceptor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/data/api/interceptor/AuthInterceptor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/data/model/Current.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/data/model/Current.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/data/model/WeatherX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/data/model/WeatherX.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/ui/weather/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/ui/adapter/WeatherAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/ui/adapter/WeatherAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/ui/fragment/WeatherFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/java/com/example/patikaweek4/ui/weather/fragment/WeatherFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/res/layout/fragment_weather.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/res/layout/item_weather_card.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/res/layout/item_weather_card.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatikaWeek4/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PatikaWeek4/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

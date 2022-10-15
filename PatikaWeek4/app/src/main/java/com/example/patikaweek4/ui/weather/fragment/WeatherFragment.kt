@@ -1,11 +1,12 @@
-package com.example.patikaweek4.ui.fragment
+package com.example.patikaweek4.ui.weather.fragment
 
 import android.content.res.Resources
 import android.os.Bundle
 import android.util.Log
 import android.view.*
 import androidx.fragment.app.Fragment
-import com.example.patikaweek4.data.ApiClient
+import androidx.navigation.fragment.navArgs
+import com.example.patikaweek4.data.api.ApiClient
 import com.example.patikaweek4.data.model.WeatherX
 import com.example.patikaweek4.databinding.FragmentWeatherBinding
 import com.example.patikaweek4.ui.adapter.WeatherAdapter
@@ -18,6 +19,7 @@ class WeatherFragment : Fragment() {
 
     private var _binding: FragmentWeatherBinding? = null
     private val binding get() = _binding!!
+    private val args by navArgs<WeatherFragmentArgs>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -30,12 +32,11 @@ class WeatherFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         getDailyWeather()
-        // setImageViewHeight()
     }
 
 
     private fun getDailyWeather() {
-        ApiClient.getApiService().getDailyWeather("40.78","30.40","metric").enqueue(object : Callback<WeatherX> {
+        ApiClient.getApiService().getDailyWeather(args.lat.toString(),args.lng.toString(),"metric").enqueue(object : Callback<WeatherX> {
             override fun onResponse(call: Call<WeatherX>, response: Response<WeatherX>) {
                 Log.d("WeatherFragment", response.body().toString())
 

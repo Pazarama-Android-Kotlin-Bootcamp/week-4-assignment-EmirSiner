@@ -1,4 +1,4 @@
-package com.example.patikaweek4.data
+package com.example.patikaweek4.data.api
 
 import com.example.patikaweek4.BuildConfig
 import com.example.patikaweek4.data.api.interceptor.AuthInterceptor
@@ -22,7 +22,6 @@ class ApiClient {
             }
             return apiService
         }
-
         private fun getHttpClient() : OkHttpClient {
             val httpClient = OkHttpClient.Builder()
             httpClient.addInterceptor(AuthInterceptor())

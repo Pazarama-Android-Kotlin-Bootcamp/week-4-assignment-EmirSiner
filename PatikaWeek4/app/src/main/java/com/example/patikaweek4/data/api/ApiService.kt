@@ -1,4 +1,4 @@
-package com.example.patikaweek4.data
+package com.example.patikaweek4.data.api
 
 import com.example.patikaweek4.data.model.WeatherX
 import retrofit2.Call
